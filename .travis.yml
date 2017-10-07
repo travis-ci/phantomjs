@@ -28,7 +28,7 @@ addons:
       - libxext-dev
 
 before_script:
-  - git checkout 2.1.1
+  - git checkout $PHANTOMJS_VERSION
   - git submodule init
   - git submodule update
 
