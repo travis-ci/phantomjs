@@ -25,6 +25,8 @@ addons:
       - libx11-dev
       - libxext-dev
 
+install: skip
+
 before_script:
   - git fetch --tags
   - git checkout $PHANTOMJS_VERSION
