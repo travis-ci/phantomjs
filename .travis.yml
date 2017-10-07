@@ -34,4 +34,4 @@ before_script:
   - git submodule update
 
 script:
-  - python build.py
+  - yes | python build.py
