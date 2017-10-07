@@ -7,8 +7,6 @@ dist: trusty
 addons:
   apt:
     packages:
-      - apt-get
-      - install
       - build-essential
       - g++
       - flex
